@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Food Pilot Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Food Pilot</h2>
+        <form>
+            <div class="phone-input">
+                <select>
+                    <option value="+1">+1 (USA)</option>
+                    <option value="+44">+44 (UK)</option>
+                    <option value="+91" selected>+91 IN</option>
+                    <option value="+86">+86 (China)</option>
+                    <option value="+81">+81 (Japan)</option>
+                    <option value="+49">+49 (Germany)</option>
+                    <option value="+33">+33 (France)</option>
+                    <option value="+61">+61 (Australia)</option>
+                    <option value="+7">+7 (Russia)</option>
+                    <option value="+55">+55 (Brazil)</option>
+                    <option value="+52">+52 (Mexico)</option>
+                    <option value="+39">+39 (Italy)</option>
+                    <option value="+34">+34 (Spain)</option>
+                    <option value="+1">+1 (Canada)</option>
+                    <option value="+82">+82 (South Korea)</option>
+                </select>
+                <input type="tel" placeholder="Phone">
+            </div>
+            <button type="submit">Send One Time Password</button>
+            <div class="divider">or</div>
+            <button type="button" class="email-button">Continue with Email</button>
+            <button type="button" class="google-button">Sign in with Google</button>
+        </form>
+        <p>New to Food Pilot? <a href="signup.html">Create account</a></p>
+    </div>
+    <script src="login.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+  
+</body>
+</html>

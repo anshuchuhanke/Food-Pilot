@@ -1,0 +1,243 @@
+
+a{
+    text-decoration: none;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#navBar{
+    height: 80px;
+    background-color: #ff885b;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.navItems{
+    font-size: 25px;
+    font-family: "Alata", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    
+}
+#hero{
+    background-image: url(/assets/platter-2009590_1920.jpg);
+    background-size:cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.heroText{
+    font-family: "Alata", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+    
+}
+.bar{
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 30px;
+    font-size: 1rem;
+
+}
+.searchInput{
+    margin-top: 20px;
+}
+.searchIcon{
+    width: 45px;
+
+}
+.options{
+    margin: 30px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.dishes{
+    width: 400px;
+    height: 300px;
+    background-color: #feac8c;
+    background-image: url(/assets/chad-montano-MqT0asuoIcU-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-radius: 20px;
+
+    
+   
+}
+.dishesText{
+    filter: drop-shadow();
+    padding: 10px;
+    font-size: 1.5rem;
+    color: black;
+    background-color: #feac8c;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.dining{
+    width: 400px;
+    height: 300px;
+    background-color: #feac8c;
+    background-image: url(/assets/brands-people-iFyLBKmCrmQ-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-radius: 20px;
+   
+}
+.diningText{
+    padding: 10px;
+    font-size: 1.5rem;
+    color: black;
+    background-color: #feac8c;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.best{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    background-image: url(/assets/image-from-rawpixel-id-15319459-png.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-radius: 20px;
+   
+}
+.bestText{
+    padding: 10px;
+    font-size: 1.5rem;
+    color: black;
+    background-color: #feac8c;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+body{
+    background-color: #ffe5cf;
+}
+.card{
+    transition: all .2s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    background-color: #edede9;
+
+}
+.bigContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem 0 5rem;
+    
+}
+.fHeader{
+    margin-bottom: 2rem;
+}
+.pilotLogo{
+    font-size: 2rem;
+    height: 30px;
+    width:  150px;
+}
+div a p{
+    color: black;
+}
+.aboutItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.smallhead{
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.8rem;
+}
+.smallItems{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-top: 0.35rem;
+    margin-bottom: 0.35rem;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.socialHead{
+    margin-bottom: 0.2rem;
+}
+.lKin{
+    background-image: url(/assets/icons8-linkedin-50.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.fb{
+    background-image: url(/assets/icons8-facebook-50.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.yt{
+    background-image: url(/assets/icons8-youtube-50.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.x{
+    background-image: url(/assets/icons8-twitterx-48.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.insta{
+    background-image: url(/assets/icons8-instagram-50.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.downlinks{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.appstore{
+    background-image: url(/assets/icons8-app-store-50.png);
+    background-size: cover;
+    width: 50PX;
+    height:50px;
+    background-repeat: no-repeat;
+}
+.playstore{
+    background-image: url(/assets/icons8-playstore-50.png);
+    background-size: cover;
+    width: 50PX;
+    height:50px;
+    background-repeat: no-repeat;
+}
+.copyright{
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+    border-top: solid 0.8px black;
+}

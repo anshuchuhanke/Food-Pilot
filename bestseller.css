@@ -1,0 +1,349 @@
+a{
+    text-decoration: none;
+}
+.Section{
+    margin: 0 3rem 0 3rem;
+}
+body{
+    background-color: white;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.Heading{
+    font: 1em sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+   
+}
+.dishesList{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+}
+.dishcard:hover{
+    background-color: #edede9;
+}
+
+.dishcard{
+    width: 300px;
+    height: 330px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem;
+    padding-top: 0.8rem;
+    flex-direction: column;
+}
+.dishImg{
+    background-image: url(/assets/cheesburst.webp);
+    background-size: cover;
+    border-radius: 1rem;
+    width: 300px;
+    height: 250px;
+}
+.restName{
+    font-family: "Alata", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    margin-top: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:black;
+
+}
+.rating{
+    padding: 0.1rem;
+    background-color: green;
+    border-radius: 0.5rem;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.description{
+    font-family: "Alata", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    margin-top: 0.5rem;
+}
+.time{
+    font-family: "Alata", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 0.35rem;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+.lapImg{
+    background-image: url(/assets/personalslice.jpeg);
+    background-size: cover;
+    border-radius: 1rem;
+    width: 300px;
+    height: 250px;
+}
+.hutImg{
+    background-image: url(/assets/tacopizza.jpg);
+    background-size: cover;
+    border-radius: 1rem;
+    width: 300px;
+    height: 250px;
+}
+.capImg{
+    background-image: url(/assets/combopizza.jpeg);
+    background-size: cover;
+    border-radius: 1rem;
+    width: 300px;
+    height: 250px;
+}
+.babaImg{
+    background-image: url(/assets/babachicken.avif);
+    background-size: cover;
+    border-radius: 1rem;
+    width: 300px;
+    height: 250px;
+}
+.palImg{
+    background-image: url(/assets/paldhaba.avif);
+    background-size: cover;
+    border-radius: 1rem;
+    width: 300px;
+    height: 250px;
+}
+.kfcImg{
+    background-image: url(/assets/kfccombo.png);
+    background-size: cover;
+    border-radius: 1rem;
+    width: 300px;
+    height: 250px;
+}
+.birImg{
+    background-image: url(/assets/biryani.avif);
+    background-size: cover;
+    border-radius: 1rem;
+    width: 300px;
+    height: 250px;
+}
+.bheading{
+    margin-left: 3rem;
+}
+.brandlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.brandCard:hover{
+    background-color: antiquewhite;
+}
+.brandCard{
+    border-radius: 1rem;
+    width: 150px;
+    height: 240px;
+    margin: 0 2rem 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bKingImg{
+    background-image: url(/assets/bKing.png);
+    background-size: cover;
+    height: 120px;;
+    width: 120px;
+    animation: rotate 10s linear infinite;
+
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.bName{
+    margin-top: .6rem;
+    color: black;
+    font-family: "Alata", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+.timeexpected{
+    margin-top: 0.6rem;
+    color: black;
+    font-family: "Alata", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.imgborder{
+    border: 0.5px solid black;
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.subImg{
+    background-image: url(/assets/subway.avif);
+    background-size: cover;
+    height: 80px;;
+    width: 80px;
+    animation: rotate 10s linear infinite;
+
+}
+.gopImg{
+    background-image: url(/assets/gopals.avif);
+    background-size: cover;
+    height: 80px;;
+    width: 80px;
+    animation: rotate 10s linear infinite;
+}
+.rollImg{
+    background-image: url(/assets/rollx.avif);
+    background-size: cover;
+    height: 80px;;
+    width: 80px;
+    animation: rotate 10s linear infinite;
+}
+.sbuckImg{
+    background-image: url(/assets/sbuck.avif);
+    background-size: cover;
+    height: 80px;;
+    width: 80px;
+    animation: rotate 10s linear infinite;
+}
+.backImg{
+    background-image: url(/assets/bakingo.avif);
+    background-size: cover;
+    height: 80px;;
+    width: 80px;
+    animation: rotate 10s linear infinite;
+}
+.dietImg{
+    background-image: url(/assets//diet.avif);
+    background-size: cover;
+    height: 80px;;
+    width: 80px;
+    animation: rotate 10s linear infinite;
+    
+}
+footer{
+    width: 100%;
+    background-color: #0d1b2a;
+
+}
+.bigContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem 0 5rem;
+    
+}
+.fHeader{
+    margin-bottom: 2rem;
+}
+.pilotLogo{
+    font-size: 2rem;
+    height: 30px;
+    width:  150px;
+    color: white;
+}
+div a p{
+    color: black;
+}
+.aboutItems{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.smallhead{
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.8rem;
+}
+.smallItems{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-top: 0.35rem;
+    color: white;
+    margin-bottom: 0.35rem;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.socialHead{
+    margin-bottom: 0.2rem;
+}
+.lKin{
+    background-image: url(/assets/disheslkin.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.fb{
+    background-image: url(/assets/dishesfb.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.yt{
+    background-image: url(/assets/dishesyt.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.x{
+    background-image: url(/assets/icons8-twitterx-48.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.insta{
+
+    background-image: url(/assets/instadishes.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.downlinks{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.appstore{
+    background-image: url(/assets/dishesapp.png);
+    background-size: cover;
+    width: 50PX;
+    height:50px;
+    background-repeat: no-repeat;
+}
+.playstore{
+    background-image: url(/assets/dishesplay.png);
+    background-size: cover;
+    width: 50PX;
+    height:50px;
+    background-repeat: no-repeat;
+}
+.copyright{
+    color: white;
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+    border-top: solid 0.8px white;
+}
